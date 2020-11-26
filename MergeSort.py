@@ -25,7 +25,7 @@ def MergeSort(arr):
             j+=1
             k+=1
 
-
-arr=list(map(int,input("Enter array: ").split()))
-MergeSort(arr)
-print("Sorted Array:",*arr)
+if __name__=='__main__':
+    arr=list(map(int,input("Enter array: ").split()))
+    MergeSort(arr)
+    print("Sorted Array:",*arr)
