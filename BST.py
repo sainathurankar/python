@@ -14,7 +14,7 @@ def insert(root, key):
     return root 
 
 if __name__=="__main__":
-    root=treeNode(50)
+    root=treeNode(50) #check BinaryTree.py 
     root = insert(root, 30) 
     root = insert(root, 20) 
     root = insert(root, 40) 
