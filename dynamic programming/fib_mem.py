@@ -1,5 +1,4 @@
 import time
-start_time = time.time()
 def init(n):
     global lookup
     lookup=[None for i in range(n+1)]
@@ -13,6 +12,7 @@ def fib(n):
     return lookup[n]
 
 n=int(input("Enter the number: "))
+start_time = time.time()
 init(n)
 print(fib(n))
 
