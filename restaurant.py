@@ -25,9 +25,9 @@ print(" ")
 tables = []
 
 for i in range(n):
-    num = int(input("Enter Table{} number: ".format(i+1)))
-    name = input("Enter Table{} Waiter name: ".format(i+1))
-    status = input("Enter Table{} status: ".format(i+1))
+    num = int(input("Enter Table {} number: ".format(i+1)))
+    name = input("Enter Table {} Waiter name: ".format(i+1))
+    status = input("Enter Table {} status: ".format(i+1))
     print(" ")
     tables.append(Table(num, name, status))
 
